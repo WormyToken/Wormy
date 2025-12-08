@@ -1,0 +1,19 @@
+# Ignore environment secrets
+.env
+.env.local
+.secret
+keystore.json
+
+# Ignore build output
+node_modules/
+cache/
+artifacts/
+dist/
+
+# Ignore OS files
+.DS_Store
+
+# IDE
+.vscode/
+
+.deps
