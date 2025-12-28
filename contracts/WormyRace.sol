@@ -9,7 +9,7 @@ interface IPohVerifier {
     function verify(bytes memory signature, address human) external view returns (bool);
 }
 
-contract WormRaceVault is Ownable, ReentrancyGuard {
+contract WormyRace is Ownable, ReentrancyGuard {
     error PohVerificationFailed(address sender);
     error DailyLimitReached(address sender);
     error VaultEmpty();
